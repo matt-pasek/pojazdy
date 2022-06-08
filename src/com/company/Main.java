@@ -256,7 +256,6 @@ public class Main {
     ArrayList<Vehicle> tempVehicle = new ArrayList<>();
 
     // tab2 - zawiera wszystkie obiekty z silnikiem
-    //ArrayList <Entity> temp2 = new ArrayList();
     for (Entity entity : tab1) {
       if (Vehicle.class.isAssignableFrom(entity.getClass())) {
         tempEntity.add(entity);
